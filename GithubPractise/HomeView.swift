@@ -14,6 +14,7 @@ struct HomeView: View {
             Text("Screen 2!")
             Text("Screen 3!")
             Rectangle()
+                .foregroundStyle(.orange.gradient)
         }
         .padding()
         .font(.largeTitle)
