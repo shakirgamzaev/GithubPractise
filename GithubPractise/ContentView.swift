@@ -17,11 +17,12 @@ struct ContentView: View {
             Text("Swiftful Thinking")
                 .padding()
                 .background(.green)
+                .font(.title2)
             
             Button {
                 
             } label: {
-                Text("Press me")
+                Text("Subscribe now")
             }
             .buttonStyle(.borderedProminent)
 
