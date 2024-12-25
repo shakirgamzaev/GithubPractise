@@ -20,6 +20,9 @@ struct HomeView: View {
         }
         .padding()
         .font(.largeTitle)
+        .onAppear {
+            //analytics
+        }
     }
 }
 
