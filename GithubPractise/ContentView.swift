@@ -12,13 +12,14 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 ForEach(0..<40) { _ in
-                    Text("Yo!")
+                    Rectangle()
+                        .fill(.orange.gradient)
                         .frame(maxWidth: .infinity)
+                        .frame(height: 40)
                 }
             }
-            
         }
-        .clipShape(Rectangle())
+        
     }
 }
 
