@@ -9,25 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 15.0) {
-            Image(systemName: "house.fill")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            
-            Text("Swiftful Thinking")
-                .padding()
-                .background(.green)
-                .font(.title2)
-            
-            Button {
-                //fixed user sign up crash
-            } label: {
-                Text("Subscribe now!!!")
+        ScrollView {
+            VStack {
+                ForEach(0..<40) { _ in
+                    Text("Yo!")
+                        .frame(maxWidth: .infinity)
+                }
             }
-            .buttonStyle(.borderedProminent)
-
+            
         }
-        .padding()
+        .clipShape(Rectangle())
     }
 }
 
