@@ -22,7 +22,7 @@ struct ContentView: View {
             Button {
                 //fixed user sign up crash
             } label: {
-                Text("Subscribe now!!!")
+                Text("Click me now!!!")
             }
             .buttonStyle(.borderedProminent)
 
